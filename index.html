@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <title>Plan Your Tour Clone</title>
+</head>
+
+<body>
+    <!-- ! Header Section Start -->
+    <header>
+        <nav>
+            <div class="nav-left">
+                <a href="#"><img src="images/logo.webp" alt="Logo"></a>
+            </div>
+            <div class="nav-right">
+                <div class="bar"><i class="fa-solid fa-bars"></i></div>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li id="Destination"><a href="">Destination <i class="fa-solid fa-caret-down"></i>
+                        <div class="megamenu">
+                            <div class="mid-megamenu">
+                                <div class="megamenu-items">
+                                    <h4>Manali</h4>
+                                    <ul>
+                                        <li>3 Night 4 Days Manali Tour Package</li>
+                                        <li>Manali Tour Package For Family</li>
+                                        <li>Manali Tour Package For Couple</li>
+                                        <li>Shimla Manali Tour Package From Mumbai</li>
+                                    </ul>
+                                </div>
+                                <div class="megamenu-items">
+                                    <h4>Andaman</h4>
+                                    <ul>
+                                        <li>5 Days Andaman Tour Package</li>
+                                        <li>Amazing Andaman 6 Days Tour</li>
+                                        <li>Exotic Andaman 7 Days Tour</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </a></li>
+                    <li id="Theme"><a href="">Destination By Theme <i class="fa-solid fa-caret-down"></i>
+                        <div class="megamenu">
+                            <div class="mid-megamenu">
+                                <div class="megamenu-items">
+                                    <h4>Family</h4>
+                                    <ul>
+                                        <li>Manali Tour Package For Family</li>
+                                        <li>Shimla Manali Tour Package From Mumbai</li>
+                                    </ul>
+                                </div>
+                                <div class="megamenu-items">
+                                    <h4>Honeymoon</h4>
+                                    <ul>
+                                        <li>Exotic Andaman 7 Days Tour</li>
+                                        <li>5 Days Andaman Tour Package</li>
+                                        <li>Manali Tour Package For Couple</li>
+                                        <li>Shimla Manali Tour Package From Mumbai</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href=""><i class="fa-solid fa-phone"></i> +91 8887801385</a></li>
+                    <li><a href=""><button class="Enquiry">Enquiry Now</button></a></li>
+                    <li><a href=""><input type="search" placeholder="Search"></a></li>
+                    <li><a href=""><button class="search"><i class="fa-solid fa-magnifying-glass"></i></button></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- ! Header Section End -->
+    <main>
+        <!-- ! Hero Section Start -->
+        <section class="main-hero--image">
+            <img src="images/herobg.webp" alt="Nature Background">
+            <img class="mobile-img" src="images/mobileheroimage.webp" alt="Responsive Hero Image">
+            <div class="hero-content">
+                <h1>Explore Incredible India With Us</h1>
+                <h2>Your Ultimate Travel Companion for Memorable Vacations</h2>
+            </div>
+        </section>
+        <!-- ! Hero Section End -->
+        <!-- ! Enjoy Trip Section Start -->
+        <section class="main-enjoy--trip">
+            <div class="mid-enjoy--trip">
+                <div class="trip-content">
+                    <h2>Enjoy Your Trips to the Fullest</h2>
+                    <p>Make your travel dreams a reality!</p>
+                </div>
+                <div class="trip-images--container">
+                    <img src="images/tripimg1.webp" alt="Paradise of Kerala">
+                    <img src="images/tripimg2.webp" alt="Paradise of Kerala">
+                    <img src="images/tripimg3.webp" alt="Paradise of Kerala">
+                </div>
+            </div>
+            <div class="position-packages">
+                <select name="Location" id="Location">
+                    <option value="Location">Location</option>
+                    <option value="Manali">Manali</option>
+                    <option value="Andaman">Andaman</option>
+                    <option value="Kerala">Kerala</option>
+                </select>
+                <select name="Type of Package" id="Package">
+                    <option value="Type of Package">Type of Package</option>
+                    <option value="Family">Family</option>
+                    <option value="Honeymoon">Honeymoon</option>
+                    <option value="Friends">Friends</option>
+                </select>
+                <select name="Duration" id="Duration">
+                    <option value="Duration">Duration</option>
+                    <option value="4days3nights">4 Days 3 Nights</option>
+                    <option value="5days4nights">5 Days 4 Nights</option>
+                    <option value="6days5nights">6 Days 5 Nights</option>
+                    <option value="7days6nights">7 Days 6 Nights</option>
+                    <option value="3days4nights">3 Days 4 Nights</option>
+                    <option value="2days3nights">2 Days 3 Nights</option>
+                </select>
+                <button>SHOW PACKAGES</button>
+            </div>
+        </section>
+        <!-- ! Enjoy Trip Section End -->
+        <!-- ! Trending Packages Section Start -->
+        <section class="main-trending--packages">
+            <div class="mid-trending--packages">
+                <h3>TRENDING PACKAGES</h3>
+                <div class="trending-container">
+                    <div class="trending-items">
+                        <img src="images/manali.webp" alt="Manali">
+                        <div class="img-shadow"></div>
+                        <h4>MANALI</h4>
+                        <div class="price-box">
+                            <p>Starting from</p>
+                            <span>Rs. 9,000/-</span>
+                        </div>
+                    </div>
+                    <div class="trending-items">
+                        <img src="images/andaman.jpg" alt="Andaman">
+                        <div class="img-shadow"></div>
+                        <h4>ANDAMAN</h4>
+                        <div class="price-box">
+                            <p>Starting from</p>
+                            <span>Rs. 17,999/-</span>
+                        </div>
+                    </div>
+                    <div class="trending-items">
+                        <img src="images/kerala.webp" alt="Kerala">
+                        <div class="img-shadow"></div>
+                        <h4>KERALA</h4>
+                        <div class="price-box">
+                            <p>Starting from</p>
+                            <span>Rs. 10,000/-</span>
+                        </div>
+                    </div>
+                    <div class="trending-items">
+                        <img src="images/manali.webp" alt="Manali">
+                        <div class="img-shadow"></div>
+                        <h4>MANALI</h4>
+                        <div class="price-box">
+                            <p>Starting from</p>
+                            <span>Rs. 9,000/-</span>
+                        </div>
+                    </div>
+                    <div class="trending-items">
+                        <img src="images/andaman.jpg" alt="Andaman">
+                        <div class="img-shadow"></div>
+                        <h4>ANDAMAN</h4>
+                        <div class="price-box">
+                            <p>Starting from</p>
+                            <span>Rs. 17,999/-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ! Trending Packages Section End -->
+        <!-- ! Manali Packages Section Start -->
+        <section class="main-packages">
+            <div class="mid-packages">
+                <div class="package-heading">
+                    <h3>Manali Tour Packages</h3>
+                    <span>View All Packages</span>
+                </div>
+                <div class="packages-container">
+                    <div class="packages-items">
+                        <div class="package-image">
+                            <img src="images/manali1.webp">
+                        </div>
+                        <div class="package-content">
+                            <span>4 Days 3 Nights</span>
+                            <p>3 Night 4 Days Manali Tour Package</p>
+                            <p>Rs. 11,500 <span>Rs. 15,000</span> Per Person</p>
+                            <button>Send Enquiry</button>
+                        </div>
+                    </div>
+                    <div class="packages-items">
+                        <div class="package-image">
+                            <img src="images/manali2.webp">
+                        </div>
+                        <div class="package-content">
+                            <span>5 Days 4 Nights</span>
+                            <p>Manali Tour Package For Family</p>
+                            <p>Rs. 10,500 <span>Rs. 14,000</span> Per Person</p>
+                            <button>Send Enquiry</button>
+                        </div>
+                    </div>
+                    <div class="packages-items">
+                        <div class="package-image">
+                            <img src="images/manali3.webp">
+                        </div>
+                        <div class="package-content">
+                            <span>4 Days 3 Nights</span>
+                            <p>Manali Tour Packages For Couple</p>
+                            <p>Rs. 9,000 <span>Rs. 13,000</span> Per Person</p>
+                            <button>Send Enquiry</button>
+                        </div>
+                    </div>
+                    <div class="packages-items">
+                        <div class="package-image">
+                            <img src="images/manali4.webp">
+                        </div>
+                        <div class="package-content">
+                            <span>6 Days 5 Nights</span>
+                            <p>Shimla Manali Tour Package From Mumbai</p>
+                            <p>Rs. 23,000 <span>Rs. 30,000</span> Per Person</p>
+                            <button>Send Enquiry</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ! Manali Packages Section End -->
+        <!-- ! Andaman Packages Section Start -->
+        <section class="main-packages">
+            <div class="mid-packages">
+                <div class="package-heading">
+                    <h3>Andaman Tour Packages</h3>
+                    <span>View All Packages</span>
+                </div>
+                <div class="packages-container">
+                    <div class="packages-items">
+                        <div class="package-image">
+                            <img src="images/andaman1.webp">
+                        </div>
+                        <div class="package-content">
+                            <span>7 Days 6 Nights</span>
+                            <p>Exotic Andaman 7 Days Tour</p>
+                            <p>Rs. 30,000 <span>Rs. 40,000</span> Per Person</p>
+                            <button>Send Enquiry</button>
+                        </div>
+                    </div>
+                    <div class="packages-items">
+                        <div class="package-image">
+                            <img src="images/andaman2.webp">
+                        </div>
+                        <div class="package-content">
+                            <span>6 Days 5 Nights</span>
+                            <p>Amazing Andaman 6 Days Tour</p>
+                            <p>Rs. 24,000 <span>Rs. 30,000</span> Per Person</p>
+                            <button>Send Enquiry</button>
+                        </div>
+                    </div>
+                    <div class="packages-items">
+                        <div class="package-image">
+                            <img src="images/andaman3.webp">
+                        </div>
+                        <div class="package-content">
+                            <span>5 Days 4 Nights</span>
+                            <p>5 Days Andaman Tour Package</p>
+                            <p>Rs. 17,999 <span>Rs. 24,000</span> Per Person</p>
+                            <button>Send Enquiry</button>
+                        </div>
+                    </div>
+                    <div class="packages-items">
+                        <div class="package-image">
+                            <img src="images/andaman1.webp">
+                        </div>
+                        <div class="package-content">
+                            <span>7 Days 6 Nights</span>
+                            <p>Exotic Andaman 7 Days Tour</p>
+                            <p>Rs. 30,000 <span>Rs. 40,000</span> Per Person</p>
+                            <button>Send Enquiry</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ! Andaman Packages Section End -->
+        <!-- ! Kerala Packages Section End -->
+        <section class="main-packages">
+            <div class="mid-packages">
+                <div class="package-heading">
+                    <h3>Kerala Tour Packages</h3>
+                    <span>View All Packages</span>
+                </div>
+                <div class="packages-container">
+                    <div class="packages-items">
+                        <div class="package-image">
+                            <img src="images/kerala1.webp">
+                        </div>
+                        <div class="package-content">
+                            <span>2 Nights 3 Days</span>
+                            <p>3 Days Kerala Tour Package</p>
+                            <p>Rs. 10,000 <span>Rs. 14,000</span> Per Person</p>
+                            <button>Send Enquiry</button>
+                        </div>
+                    </div>
+                    <div class="packages-items">
+                        <div class="package-image">
+                            <img src="images/kerala2.webp">
+                        </div>
+                        <div class="package-content">
+                            <span>3 Nights 4 Days</span>
+                            <p>4 Days Exotic Kerala Tour Package</p>
+                            <p>Rs. 15,000 <span>Rs. 20,000</span> Per Person</p>
+                            <button>Send Enquiry</button>
+                        </div>
+                    </div>
+                    <div class="packages-items">
+                        <div class="package-image">
+                            <img src="images/kerala1.webp">
+                        </div>
+                        <div class="package-content">
+                            <span>2 Nights 3 Days</span>
+                            <p>3 Days Kerala Tour Package</p>
+                            <p>Rs. 10,000 <span>Rs. 14,000</span> Per Person</p>
+                            <button>Send Enquiry</button>
+                        </div>
+                    </div>
+                    <div class="packages-items">
+                        <div class="package-image">
+                            <img src="images/kerala2.webp">
+                        </div>
+                        <div class="package-content">
+                            <span>3 Nights 4 Days</span>
+                            <p>4 Days Exotic Kerala Tour Package</p>
+                            <p>Rs. 15,000 <span>Rs. 20,000</span> Per Person</p>
+                            <button>Send Enquiry</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ! Kerala Packages Section End -->
+        <!-- ! Popular Places Section Start -->
+        <section class="main-popular-places">
+            <div class="mid-popular-places">
+                <h3 class="h3-heading">Popular Places To Visit</h3>
+                <div class="popular-places--container">
+                    <div class="popular-places-items">
+                        <img src="images/popularplace1.webp">
+                        <h5>Manali</h5>
+                    </div>
+                    <div class="popular-places-items">
+                        <img src="images/andaman.jpg">
+                        <h5>Andaman</h5>
+                    </div>
+                    <div class="popular-places-items">
+                        <img src="images/popularplace3.webp">
+                        <h5>Kerala</h5>
+                    </div>
+                    <div class="popular-places-items">
+                        <img src="images/popularplace1.webp">
+                        <h5>Manali</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ! Popular Places Section End -->
+        <!-- ! Why Choose Section Start -->
+        <section class="main-why--choose">
+            <div class="mid-why--choose">
+                <h3 class="h3-heading">Why Choose Us ?</h3>
+                <p>Why Book With PlanYourTour!</p>
+                <div class="why-choose--container">
+                    <div class="why-choose--items">
+                        <img src="images/customized.png" alt="Customized Packages">
+                        <div class="why-items--content">
+                            <h4>Customized Packages</h4>
+                            <p>You can ask for your desired packages and we will be listening to you. You can choose and decide on destinations and sightseeing and we will manage that for you on a reasonable budget.</p>
+                        </div>
+                    </div>
+                    <div class="why-choose--items">
+                        <img src="images/easybook.png" alt="Customized Packages">
+                        <div class="why-items--content">
+                            <h4>Easy to Book</h4>
+                            <p>The process of booking a tour with us is very easy. You can just fill out the inquiry form or call us and we will get back to you as soon as possible with exciting packages.</p>
+                        </div>
+                    </div>
+                    <div class="why-choose--items">
+                        <img src="images/nohiddencharge.png" alt="Customized Packages">
+                        <div class="why-items--content">
+                            <h4>No Hidden Charges</h4>
+                            <p>All the charges are included in the package. No other charge will be levied on our customers as we work in a customer-centric way.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ! Why Choose Section End -->
+        <!-- ! Customer Ratings Section Start -->
+        <section class="main-customer--ratings">
+            <div class="mid-customer--ratings">
+                <h3>Happy Customers & Stories</h3>
+                <div class="ratings-container">
+                    <div class="ratings-items">
+                        <img src="images/boy1.jpg">
+                        <h4>Karthik Kumar</h4>
+                        <span>Student</span>
+                        <p><i class="fa-solid fa-quote-left"></i> I recently booked a Manali Tour Package with PlanYourTour. I am so thankful for their itinerary and budget preferences. I will definitely suggest PlanYourTour for a hassle-free travel experience.</p>
+                        <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></span>
+                    </div>
+                    <div class="ratings-items">
+                        <img src="images/boy2.jpg">
+                        <h4>Mohit Sharma</h4>
+                        <span>Traveler</span>
+                        <p><i class="fa-solid fa-quote-left"></i> PlanYourTour Team was doing great work for my trip. There Itinerary was well-organized and the accommodation was top-notch. I Had an amazing experience. I will surely book my next trip with PlanYourTour.</p>
+                        <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></span>
+                    </div>
+                    <div class="ratings-items">
+                        <img src="images/girl1.jpg">
+                        <h4>Adya Mathur</h4>
+                        <span>Travel Vlogger</span>
+                        <p><i class="fa-solid fa-quote-left"></i> PlanYourTour made my time so wonderful. The Accommodation was luxurious and the activities were well-planned. Their Team is very friendly and always available to answer any question. I will surely use their services again & again.</p>
+                        <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ! Customer Ratings Section End -->
+        <!-- ! About Section Start -->
+        <section class="main-about">
+            <div class="mid-about">
+                <h3>A Leading Travel Agency : PlanYourTour</h3>
+                <article>PlanYourTour is an emerging name in the tourism industry. With a customer-centric approach and budget-friendly packages, it is one of the primary agencies providing quality trip packages to various parts of India and Whole over the world. We are committed to providing you with beautiful memories to cherish for the rest of your lifetime.</article>
+                <article>You can get a trip deal at reasonable prices by choosing from the existing trip packages. PlanYourTour is also flexible with creating a personalized package as per your demand. You can book a package for yourself, your friends, family, or colleagues and leave the rest to us. We will manage the trip as planned. The only thing you should be concerned about is, enjoying the time of the trip to the fullest.</article>
+            </div>
+        </section>
+        <!-- ! About Section End -->
+        <!-- ! Destination Section Start -->
+        <section class="main-destination">
+            <div class="mid-destination">
+                <h4>Destination</h4>
+                <ul>
+                    <li>3 Night 4 Days Manali Tour Package</li>
+                    <li>Manali Tour Package For Family</li>
+                    <li>Manali Tour Package For Couple</li>
+                    <li>Shimla Manali Tour Package From Mumbai</li>
+                    <li>5 Days Andaman Tour Package</li>
+                    <li>Amazing Andaman 6 Days Tour</li>
+                    <li>Exotic Andaman 7 Days Tour</li>
+                </ul>
+                <h4>Destination by Themes</h4>
+                <ul>
+                    <li>3 Night 4 Days Manali Tour Package</li>
+                    <li>Manali Tour Package For Family</li>
+                    <li>Manali Tour Package For Couple</li>
+                    <li>Shimla Manali Tour Package From Mumbai</li>
+                    <li>5 Days Andaman Tour Package</li>
+                    <li>Amazing Andaman 6 Days Tour</li>
+                    <li>Exotic Andaman 7 Days Tour</li>
+                </ul>
+            </div>
+        </section>
+        <!-- ! Destination Section End -->
+        <!-- ! Newsletter Section Start -->
+        <section class="main-newsletter">
+            <div class="mid-newsletter">
+                <h3 class="newsletter-h3">Subscribe to Newsletters</h3>
+                <p>And stay informed about our news and events</p>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="tel" placeholder="Your Mobile Number" required>
+                    <input type="email" placeholder="Enter email" required>
+                    <button><i class="fa-solid fa-paper-plane"></i> Subscribe</button>
+                </form>
+            </div>
+        </section>
+        <!-- ! Newsletter Section End -->
+    </main>
+    <!-- ! Footer Section Start -->
+    <footer>
+        <div class="main-footer">
+            <div class="mid-footer1">
+                <div class="footer1-items">
+                    <img src="images/logo.webp" alt="Logo">
+                    <p>PlanYourTour is a trusted travel agency that curates personalized travel experiences for its clients. With a team of experts, they offer end-to-end travel solutions, making travel planning hassle-free and enjoyable.</p>
+                </div>
+                <div class="footer1-items">
+                    <h4>Destination by Theme</h4>
+                    <ul>
+                        <li>Family</li>
+                        <li>Honeymoon</li>
+                    </ul>
+                </div>
+                <div class="footer1-items">
+                    <h4>Quicks Links</h4>
+                    <ul>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Blog</li>
+                        <li>Contact Us</li>
+                        <li>Cancellation Policy</li>
+                    </ul>
+                </div>
+                <div class="footer1-items">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li>Address : India</li>
+                        <li>Call : +91 8887801385</li>
+                        <li>Email : info@planyourtour.in</li>
+                        <li><i class="fa-brands fa-square-facebook"></i> <i class="fa-brands fa-square-instagram"></i> <i class="fa-brands fa-square-youtube"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-footer2">
+            <div class="mid-footer2">
+                <span>Terms & Conditions | Privacy Policy |</span> © PlanYourTour. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <!-- ! Footer Section End -->
+     <!-- ! Position Fixed Button Start -->
+      <div class="btn-container">
+        <button><i class="fa-solid fa-phone"></i> Call Now</button>
+        <button><i class="fa-solid fa-envelope"></i> Get Free Quotes</button>
+      </div>
+      <!-- ! Position Fixed Button End -->
+</body>
+</html>

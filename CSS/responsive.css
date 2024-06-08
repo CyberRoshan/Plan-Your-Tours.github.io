@@ -1,0 +1,377 @@
+@media only screen and (min-width: 200px) and (max-width: 575px){
+    /* ! Header Section Start */
+    header{
+        max-width: 100%;
+    }
+    nav{
+        max-width: 100%;
+        padding: 10px 20px;
+        justify-content: center;
+    }
+    .nav-left img{
+        width: 160px;
+    }
+    .nav-right{
+        text-align: end;
+    }
+    .nav-right>.bar{
+        display: block;
+    }
+    .nav-right>ul{
+        display: none;
+    }
+    /* ! Header Section End */
+    /* ! Hero Section Start */
+    .main-hero--image>img{
+        display: none;
+    }
+    .main-hero--image>.mobile-img{
+        display: block;
+        height: 100vh;
+    }
+    .main-hero--image>.hero-content{
+        text-align: center;
+        position: absolute;
+        top: 16%;
+        left: 0%;
+    }
+    .hero-content>h1{
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .hero-content>h2{
+        font-size: 15px;
+        line-height: 25px;
+        word-spacing: 0px;
+    }
+    /* ! Hero Section End */
+    /* ! Enjoy Trip Section Start */
+    .position-packages{
+        max-width: 100%;
+        margin: auto;
+        top: -200%;
+        /* left: 4%; */
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.2);
+        gap: 20px;
+    }
+    .position-packages>select{
+        width: 100%;
+        background-color: #D8DACE;
+    }
+    .main-enjoy--trip{
+        margin: 50px 0px;
+    }
+    .mid-enjoy--trip{
+        padding: 0 20px;
+        flex-direction: column;
+    }
+    .trip-content>h2{
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 10px;
+    }
+    .trip-images--container{
+        flex-basis: 100%;
+        gap: 20px;
+        margin-top: 10px;
+    }
+    .trip-images--container>img{
+        width: 30%;
+    }
+    /* ! Enjoy Trip Section End */
+    /* ! Trending Packages Section Start */
+    .mid-trending--packages{
+        padding: 0px 20px;
+    }
+    .trending-container{
+        padding: 50px 0px;
+        flex-direction: column;
+    }
+    .trending-items{
+        flex-basis: 100%;
+    }
+    /* ! Trending Packages Section End */
+    /* ! Manali, Andaman, Kerala Packages Section Start */
+    .mid-packages{
+        padding: 0px 20px;
+    }
+    .mid-packages>.package-heading{
+        flex-direction: column;
+        align-items: start;
+    }
+    h3,.h3-heading{
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 10px;
+    }
+    .packages-container{
+        flex-direction: column;
+        gap: 30px;
+        margin: 20px 0px;
+    }
+    .packages-items{
+        flex-basis: 100%;
+    }
+    /* ! Manali, Andaman, Kerala Packages Section End */
+    /* ! Popular Places Section Start */
+    .mid-popular-places{
+        padding: 20px 20px;
+    }
+    .mid-popular-places>h3{
+        text-align: center;
+    }
+    .popular-places--container{
+        flex-wrap: wrap;
+        margin: 20px 0px;
+    }
+    .popular-places-items{
+        flex-basis: 48%;
+    }
+    .popular-places-items>img{
+        height: 150px;
+        border-radius: 10px;
+    }
+    /* ! Popular Places Section End */
+    /* ! Why Choose Section Start */
+    .mid-why--choose{
+        padding: 0px 20px;
+    }
+    .why-choose--container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .why-choose--items{
+        flex-basis: 100%;
+    }
+    /* ! Why Choose Section End */
+    /* ! Customer Ratings Section Start */
+    .mid-customer--ratings{
+        padding: 0px 20px;
+    }
+    .mid-customer--ratings>h3{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .ratings-container{
+        flex-direction: column;
+        gap: 60px;
+    }
+    .ratings-items{
+        flex-basis: 100%;
+    }
+    /* ! Customer Ratings Section End */
+    /* ! About Section Start */
+    .main-about{
+        padding: 30px 0px;
+    }
+    .mid-about{
+        padding: 0px 20px;
+    }
+    .mid-about>h3{
+        font-size: 29px;
+    }
+    /* ! About Section End */
+    /* ! Destination Section Start */
+    .mid-destination{
+        padding: 0px 20px;
+    }
+    .mid-destination>ul{
+        gap: 5px;
+    }
+    /* ! Destination Section End */
+    /* ! Newsletter Section Start */
+    .mid-newsletter{
+        padding: 0px 20px;
+    }
+    .mid-newsletter>.newsletter-h3{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .mid-newsletter>form>input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    /* ! Newsletter Section End */
+    /* ! Footer Section Start */
+    .mid-footer1{
+        padding: 0px 20px;
+        flex-direction: column;
+    }
+    .footer1-items{
+        flex-basis: 100%;
+    }
+    .footer1-items>img{
+        max-width: 150px;
+    }
+    .footer1-items>p{
+        margin-bottom: 30px;
+        line-height: 25px;
+    }
+    /* ! Footer Section End */
+    /* ! Position Fixed Button Start */
+    .btn-container{
+        opacity: 1;
+        visibility: visible;
+    }
+    /* ! Position Fixed Button End */
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px){
+        /* ! Header Section Start */
+        header{
+            max-width: 100%;
+        }
+        nav{
+            max-width: 100%;
+            padding: 10px;
+        }
+        .nav-left img{
+            width: 250px;
+        }
+        .nav-right{
+            text-align: end;
+        }
+        .nav-right>.bar{
+            display: block;
+        }
+        .nav-right>.bar>i{
+            background-color: #6E6E6E;
+            font-size: 30px;
+        }
+        .nav-right>ul{
+            display: none;
+        }
+        /* ! Hero Section Start */
+        .main-hero--image>img{
+            height: auto;
+        }
+        .main-hero--image>.hero-content{
+            top: 8%;
+            left: 10%;
+        }
+        /* ! Hero Section End */
+        /* ! Enjoy Trip Section Start */
+        .position-packages{
+            width: 80%;
+            top: -310px;
+            left: 10%;
+            gap: 10px;
+            flex-direction: column;
+        }
+        .position-packages>select{
+            width: 100%;
+        }
+        .mid-enjoy--trip{
+            max-width: 100%;
+            padding: 0px 20px;
+            align-items: start;
+            flex-direction: column;
+        }
+        .trip-content{
+            flex-basis: 100%;
+        }
+        .trip-images--container{
+            flex-basis: 100%;
+            gap: 15px;
+        }
+        /* ! Enjoy Trip Section End */
+        /* ! Trending Packages Section Start */
+        .mid-trending--packages{
+            max-width: 100%;
+            padding: 0px 20px;
+        }
+        .trending-container{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .trending-items{
+            flex-basis: 30%;
+        }
+        /* ! Trending Packages Section End */
+        /* ! Manali, Andaman, Kerala Packages Section Start */
+        .mid-packages{
+            max-width: 100%;
+            padding: 0px 20px;
+        }
+        .packages-container{
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        .packages-items{
+            flex-basis: 48%;
+        }
+        /* ! Manali, Andaman, Kerala Packages Section End */
+        /* ! Popular Places Section Start */
+        .mid-popular-places{
+            max-width: 100%;
+            padding: 0px 20px;
+        }
+        .popular-places--container{
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .popular-places-items{
+            flex-basis: 48%;
+        }
+        /* ! Popular Places Section End */
+        /* ! Why Choose Section Start */
+        .mid-why--choose{
+            max-width: 100%;
+            padding: 0px 20px;
+        }
+        .why-choose--container{
+            flex-direction: column;
+            gap: 30px;
+        }
+        .why-choose--items{
+            flex-basis: 100%;
+        }
+        /* ! Why Choose Section End */
+        /* ! Customer Ratings Section Start */
+        .mid-customer--ratings{
+            max-width: 100%;
+            padding: 0px 100px;
+        }
+        .ratings-container{
+            flex-direction: column;
+            gap: 50px;
+        }
+        .ratings-items{
+            flex-basis: 100%;
+        }
+        /* ! Customer Ratings Section End */
+        /* ! About Section Start */
+        .mid-about{
+            max-width: 100%;
+            padding: 0px 50px;
+        }
+        /* ! About Section End */
+        /* ! Destination Section Start */
+        .mid-destination{
+            max-width: 100%;
+            padding: 0px 30px;
+        }
+        /* ! Destination Section End */
+        /* ! Newsletter Section Start */
+        .mid-newsletter{
+            max-width: 100%;
+            padding: 0px 50px;
+        }
+        .mid-newsletter>form>input{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .mid-newsletter>form>button{
+            width: 100%;
+        }
+        /* ! Newsletter Section End */
+        /* ! Footer Section Start */
+        .mid-footer1{
+            max-width: 100%;
+            padding: 0px 20px;
+            flex-direction: column;
+            gap: 40px;
+        }
+        /* ! Footer Section End */
+}
